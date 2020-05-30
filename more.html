@@ -1,127 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>More | Kakao Clone</title>
-  <script src="https://kit.fontawesome.com/331b78d214.js" crossorigin="anonymous"></script>
-
-<body>
-  <div class="status-">
-    <div class="status-bar_column">
-      <span class="status-bar_clock">13:54</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More | Kakao Clone</title>
+    <script
+      src="https://kit.fontawesome.com/331b78d214.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span class="status-bar_clock">13:54</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full"></i>
+        <span class="status-bar_battery-level">100%</span>
+      </div>
     </div>
-    <div class="status-bar_column">
-      <i class="far fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <i class="fas fa-battery-full"></i>
-      <span class="status-bar_battery-level">100%</span>
-
-    </div>
-  </div>
-  <header class="header">
-    <div class="header_header-column">
-      <h1 class="header_title">More</h1>
-    </div>
-    <div class="header-column">
-      <span class="header_icon">
-        <i class="fas fa-qrcode"></i>
-      </span>
-      <span class="header_icon">
-        <i class="fas fa-comment"></i>
-      </span>
-      <span class="header_icon">
+    <header class="header">
+      <div class="header_header-column">
+        <h1 class="header_title">More</h1>
+      </div>
+      <div class="header-column">
+        <span class="header_icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header_icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header_icon">
           <a href="settings.html">
-        <i class="fas fa-cog"></i>
-    </a>
-      </span>
-    </div>
-  </header>
-  <main class="more">
-<header class="more_header">
-    <div class="friends_friend friend friend-lg">
-        <div class="friend_column">
-        <img src="images/aaa.jpg" alt="" class="g-aaa friends">
-        <div class="friend_content">
-            <span class="friend_name">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+    <main class="more">
+      <header class="more_header">
+        <div class="friends_friend friend friend-lg">
+          <div class="friend_column">
+            <img src="images/aaa.jpg" alt="" class="g-avatar friend_avatar" />
+            <div class="friend_content">
+              <span class="friend_name">
                 Namhyo
-            </span>
-            <span class="friend_status">
+              </span>
+              <span class="friend_status">
                 boysky1234@naver.com
-            </span>
+              </span>
+            </div>
+          </div>
+          <div class="friend_column">
+            <i class="far fa-comment-alt fa-2x"></i>
+          </div>
         </div>
-    </div>
-    <div class="friend_column">
-        <i class="far fa-comment-alt fa-2x"></i>
-        </div>
-    </div>
-    <ul class="more_btn-list">
-        <li class="more_btn">
+        <ul class="more_btn-list">
+          <li class="more_btn">
             <sapn class="more_icon"><i class="far fa-smile fa-2x"></i></sapn>
             <span class="more_btn-title">
-                Emotions
+              Emotions
             </span>
-        </li>
-        <li class="more_btn">
+          </li>
+          <li class="more_btn">
             <sapn class="more_icon">
-                <i class="fas fa-brush fa-2x"></i>
+              <i class="fas fa-brush fa-2x"></i>
             </sapn>
             <span class="more_btn-title">
-                Themes
+              Themes
             </span>
-        </li>
-        <li class="more_btn">
-            <sapn class="more_icon"><i class="fab fa-kickstarter-k fa-2x"></i></sapn>
+          </li>
+          <li class="more_btn">
+            <sapn class="more_icon"
+              ><i class="fab fa-kickstarter-k fa-2x"></i
+            ></sapn>
             <span class="more_btn-title">
-                Account
+              Account
             </span>
-        </li>
-    </ul>
-</header>
-<section class="more_suggetstions">
-    <h5 class="more_title">Suggestions</h5>
-    <ul class="more_suggestions-list">
-        <li class="more_suggestions suggestion">
+          </li>
+        </ul>
+      </header>
+      <section class="more_suggestions">
+        <h5 class="more_title">Suggestions</h5>
+        <ul class="more_suggestions-list">
+          <li class="more_suggestion suggestion">
             <span class="suggestion_icon">
-                <i class="fas fa-quote-right fa-2x"></i>
+              <i class="fas fa-quote-right fa-2x"></i>
             </span>
             <span class="suggestion_title">Kakao Story</span>
-        </li>
-        <li class="more_suggestions suggestion">
+          </li>
+          <li class="more_suggestion suggestion">
             <span class="suggestion_icon">
-                <i class="fas fa-beer fa-2x"></i>
+              <i class="fas fa-beer fa-2x"></i>
             </span>
             <span class="suggestion_title">Kakao friends</span>
-
-        </li>
-        <li class="more_suggestions suggestion">
+          </li>
+          <li class="more_suggestion suggestion">
             <span class="suggestion_icon">
-                <i class="fas fa-gamepad fa-2x"></i>
+              <i class="fas fa-gamepad fa-2x"></i>
             </span>
             <span class="suggestion_title">Friends Gem</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_list-item">
+          <a href="friends.html" class="nav_link-link">
+            <i class="far fa-user"></i>
+          </a>
         </li>
-    </ul>
-</section>
-  </main>
-  <nav class="nav">
-    <ul class="nav_list">
-      <li class="nav_list-item"><a href="friends.html" class="nav_link-link">
-        <i class="far fa-user"></i>
-      </a></li>
-      <li class="nav_list-item"><a href="index.html" class="nav_link-link">
-        <i class="far fa-comment"></i>
-      </a></li>
-      <li class="nav_list-item"><a href="find.html" class="nav_link-link">
-        <i class="fas fa-search"></i>
-      </a></li>
-      <li class="nav_list-item"><a href="more.html" class="nav_link-link">
-        <i class="fas fa-ellipsis-h"></i>
-      </a></li>
-
-    </ul>
-  </nav>
-</body>
-
+        <li class="nav_list-item">
+          <a href="index.html" class="nav_link-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav_list-item">
+          <a href="find.html" class="nav_link-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav_list-item">
+          <a href="more.html" class="nav_link-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>

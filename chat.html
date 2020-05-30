@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/331b78d214.js" crossorigin="anonymous"></script>
-
-<body>
+    <link rel="stylesheet" href="css/style.css"/>
+    </head>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar_column">
             <span class="status-bar_clock">13:54</span>
@@ -23,7 +24,7 @@
     <header class="header">
         <div class="header_header-column">
             <a href="index.html" class="header_back-btn">
-                <i class="fas fa-arrow-left fa-2x"></i>
+                <i class="fas fa-arrow-left"></i>
             </a>
             <h1 class="header_title">Best Friend</h1>
         </div>
@@ -31,31 +32,31 @@
             <span class="header_icon">
                 <i class="fas fa-search"></i>
             </span>
-            <div class="header_icon"><i class="fas fa-bars"></i>
-            </div>
+            <span class="header_icon">
+                <i class="fas fa-bars"></i>
+            </span>
     </header>
-    <main class="chat">
-        <ul class="chat_message">
+    <main class="chat-screen">
+        <ul class="chat_messages">
             <span class="chat_timestamp">Friday, January 11, 2019</span>
             <li class="incoming-message message">
-                <img src="images/aaa.jpg" class="g-aaa message_aaa" alt="" />
+                <img src="images/aaa.jpg" class="m-avatar message_avatar" alt="" />
                 <div class="message_content">
                     <span class="message_author">Best Friend</span>
                     <div class="message_bubble">
-                        Congrats I love you!
+                        Congratulatios I love you!
                     </div>
                 </div>
-                <span class="message_timestamp">
+                <!-- <span class="message_timestamp">
 
-                </span>
+                </span> -->
             </li>
 
-            <li class="incoming-message message">
+            <li class="sent-message message">
                 <span class="message_timestamp"></span>
                 <div class="message_content">
                     <div class="message_bubble">
-                        Oh no!
-                    </div>
+                        Thank you see you soon!Thank you see you soon!Thank you see you soon!Thank you see you soon!Thank you see you soon!Thank you see you soon!Thank you see you soon!Thank you see you soon!</div>
                 </div>
             </li>
         </ul>
